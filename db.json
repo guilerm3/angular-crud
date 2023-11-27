@@ -1,0 +1,57 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employees": [
+    {
+      "firstName": "Guilherme",
+      "lastName": "Lucas",
+      "email": "test@gmail.com",
+      "dob": "2023-11-09T03:00:00.000Z",
+      "gender": "male",
+      "education": "Diploma",
+      "company": "Google",
+      "experience": 4,
+      "package": 12,
+      "id": 1
+    },
+    {
+      "firstName": "Pedro",
+      "lastName": "Vittar",
+      "email": "teste@gmail.com",
+      "dob": "1998-11-09T03:00:00.000Z",
+      "gender": "others",
+      "education": "Diploma",
+      "company": "Google",
+      "experience": 4,
+      "package": 12,
+      "id": 2
+    },
+    {
+      "firstName": "Matheus",
+      "lastName": "Kelyson",
+      "email": "kaly123@google.com",
+      "dob": "2016-02-18T02:00:00.000Z",
+      "gender": "",
+      "education": "Post Graduate",
+      "company": "Outook",
+      "experience": 2,
+      "package": 15,
+      "id": 3
+    }
+  ]
+}
