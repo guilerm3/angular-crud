@@ -46,12 +46,24 @@
       "lastName": "Kelyson",
       "email": "kaly123@google.com",
       "dob": "2016-02-18T02:00:00.000Z",
-      "gender": "",
+      "gender": "female",
       "education": "Post Graduate",
       "company": "Outook",
       "experience": 2,
       "package": 15,
       "id": 3
+    },
+    {
+      "firstName": "Barriga",
+      "lastName": "Seu",
+      "email": "seubarriga@gmail.com",
+      "dob": "2016-01-14T02:00:00.000Z",
+      "gender": "male",
+      "education": "Post Graduate",
+      "company": "Vila",
+      "experience": 8,
+      "package": 21,
+      "id": 4
     }
   ]
 }
