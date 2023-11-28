@@ -19,47 +19,28 @@
                 <mat-label>Email</mat-label>
                 <input matInput type="email" placeholder="Ex. teste@gmail.com" formControlName="email">
             </mat-form-field>
-            <mat-form-field appearance="outline">
-                <mat-label>Data de nascimento</mat-label>
-                <input matInput [matDatepicker]="picker" formControlName="dob">
-                <mat-hint>MM/DD/YYYY</mat-hint>
-                <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
-                <mat-datepicker #picker></mat-datepicker>
-            </mat-form-field>
+
         </div>
 
         <div class="row">
             <mat-radio-group aria-label="Selecione uma opção" formControlName="Gênero">
-                <mat-label><b>Gender</b></mat-label>
-                <mat-radio-button value="male">Homem</mat-radio-button>
-                <mat-radio-button value="female">Mulher</mat-radio-button>
-                <mat-radio-button value="others">Outros</mat-radio-button>
+                <mat-label><b>Gênero</b></mat-label>
+                <mat-radio-button value="homem">Homem</mat-radio-button>
+                <mat-radio-button value="mulher">Mulher</mat-radio-button>
+                <mat-radio-button value="outros">Outros</mat-radio-button>
             </mat-radio-group>
         </div>
 
         <div class="row">
-            <mat-form-field appearance="outline">
-                <mat-label>Formação</mat-label>
-                <mat-select formControlName="education">
-                    <mat-option *ngFor="let val of education" [value]="val">{{val}}
-                    </mat-option>
-                </mat-select>
-            </mat-form-field>
-            <mat-form-field appearance="outline">
-                <mat-label>Empresa</mat-label>
-                <input matInput placeholder="Ex. Google" formControlName="company">
-            </mat-form-field>
+        
+          
         </div>
         <div class="row">
             <mat-form-field appearance="outline">
-                <mat-label>Experiência</mat-label>
+                <mat-label>Matricula</mat-label>
                 <input matInput placeholder="Ex. 4" type="number" formControlName="experience">
             </mat-form-field>
-            <mat-form-field appearance="outline">
-                <mat-label>Valor</mat-label>
-                <input matInput placeholder="Ex. 12" type="number" formControlName="package">
-                <mat-hint>Em real</mat-hint>
-            </mat-form-field>
+
         </div>
     </div>
     <div mat-dialog-actions class="action">
